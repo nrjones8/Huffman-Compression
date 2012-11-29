@@ -144,9 +144,9 @@ def compareHuffNodes(node1, node2):
 		return 1
 
 if __name__ == "__main__":
-	if sys.argv[1] == 'encode':
+	if sys.argv[1] == 'compress':
 		encode(sys.argv[2])
-	elif sys.argv[1] =='decode':
+	elif sys.argv[1] =='decompress':
 		decode(sys.argv[2])
 	else:
-		print 'Invalid input. Please enter in the form: huffman.py [decode/encode] [filename]'
+		print 'Invalid input. Please enter in the form: huffman.py [compress/decompress] [filename]'
